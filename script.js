@@ -47,7 +47,7 @@ function adicionar() {
                 if(valores[pos] > maior ){
                     maior = valores[pos]
                 }
-                if (valores [pos < menor]){
+                if (valores [pos] < menor){
                     menor = valores[pos]
                 }
             }
@@ -59,4 +59,5 @@ function adicionar() {
             res.innerHTML += "<p> Somando todos os valores, temos " + soma +" </p>"
             res.innerHTML += "<p> A media dos valores digitados é " + media +" </p>"
         }
+        isNumero()
     }
